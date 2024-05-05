@@ -1,12 +1,12 @@
 # chat-angular-aspnetcoreapi-websocket
 
-É uma aplicação de chat em tempo real desenvolvida como parte do meu portfólio. Este projeto consiste em um frontend construído em Angular e um backend em ASP.NET Core API, utilizando WebSockets para comunicação em tempo real entre os usuários.
+Este projeto consiste em um frontend construído em Angular e um backend em ASP.NET Core API, utilizando WebSockets para comunicação em tempo real.
+
+![](/app.png?raw=true)
 
 ## Funcionalidades Principais:
 
-- **Login de Usuário**: Os usuários podem realizar login informando seu nome.
-- **Lista de Usuários Logados**: A API retorna uma lista de usuários atualmente logados no sistema.
-- **Conversação em Tempo Real**: Os usuários podem conversar entre si em tempo real, trocando mensagens instantâneas.
+- **Conversação em Tempo Real**: O usuário envia uma mensagem para o servidor eo servidor retorna a mensagem como respota em tempo real.
 
 ## Tecnologias Utilizadas:
 
